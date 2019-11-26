@@ -1,0 +1,109 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 100%;
+	min-height: 100%;
+	word-break: break-word;
+	word-wrap:break-word;
+}
+
+body{
+	margin: auto;
+	line-height: 1.2;
+	font-family: arial, sans-serif;
+}
+
+img, iframe, video, picture{
+	max-width: 100%;
+}
+
+
+.container{
+	width: 80%;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+header{
+	height: 50px;
+	background-color: #263036;
+}
+
+header h1{
+	text-align: center;
+	margin: auto;
+	color: white;
+}
+
+main{
+	background-color: snow;
+	padding: 50px 0;
+}
+
+.ensemble{
+	position: relative;
+}
+
+.forme{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.formeCarre, .formeRond{
+	width: 200px;
+	height: 200px;
+	margin: 40px;
+	border: 2px solid black;
+	display: table;
+	transition: all 0.4s;
+}
+
+.formeCarre{
+	background-color: lightSteelBlue;
+}
+
+.formeRond{
+	border-radius: 50%;
+	background-color: lightCoral;
+}
+
+.formeCarre p, .formeRond p{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.formeCarreChange{
+	border-radius: 50%;
+}
+
+.formeRondchange{
+	border-radius: 0;
+}
+
+.info{
+	position: absolute;
+	margin: auto;
+	text-align: center;
+	top: 250px;
+	left: 280px;
+}
+
+footer{
+	text-align: center;
+	background-color: #253036;
+	color: white;
+	font-size: 0.9rem;
+	height: 100px;
+}
+
+footer p{
+	margin: 0;
+	padding: 20px;
+}
